@@ -1,0 +1,2 @@
+nmap -sT -A  -p T:31000-32000 localhost
+openssl s_client -connect localhost:31790
