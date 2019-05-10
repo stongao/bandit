@@ -1,0 +1,5 @@
+screen -S mydaemon
+netcat -vvl 127.0.0.1 -p 22222 < /etc/bandit_pass/bandit20
+# ctrl-a-d to get out of screen
+./suconnect 22222
+screen -r mydaemon
